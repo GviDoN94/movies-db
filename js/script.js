@@ -25,4 +25,7 @@ const movieDB = {
 };
 
 document.querySelectorAll(".promo__adv img").forEach((adv) => adv.remove());
-document.querySelector(".promo__genre").textContent = "ДРАМА";
+
+const heroFilm = document.querySelector(".promo__bg");
+heroFilm.querySelector(".promo__genre").textContent = "ДРАМА";
+heroFilm.style.backgroundImage = "url('img/bg.jpg')";
